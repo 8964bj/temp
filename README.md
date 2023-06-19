@@ -10,7 +10,7 @@
 
 >点对点应用请保持在后台运行， 将会帮助其它人翻墙 提升翻墙速度或者能够及时收到消息
 
-## 优先推荐使用 安卓翻墙应用New Node VPN，NthLink 苹果手机无需客户端翻墙(VPN Gate提供)--2023年6月中旬墙内测试网友反馈需要尝试多个IP才能链接成功, 通讯应用Session -- 2023年6月中旬墙内测试可以使用
+## 优先推荐使用 安卓翻墙应用NthLink, New Node VPN 苹果手机无需客户端翻墙(VPN Gate提供)--2023年6月中旬墙内测试网友反馈需要尝试多个IP才能链接成功, 通讯应用Session -- 2023年6月中旬墙内测试可以使用
 >Session初次使用时需要翻墙，群组限制100人，可以翻墙使用Session, 无法翻墙使用Skred, Briar
 
 >Skred 无需翻墙, 点对点通信，需要同时在线或者设置后台接收信息
@@ -137,7 +137,13 @@ L2TP服务器地址，每小时更新
 
 # <a id="android">安卓手机端下载</a>
 
-New Node 结合测试和网友反馈，速度很快 2023年6月中旬测试可用
+nthlink 2023年6月中旬测试可用，欢迎下载使用并反馈
+
+[本网站下载](https://github.com/hello-world-1989/temp/raw/main/android/nthlink-6_0_5.apk.zip)
+[谷歌应用商店下载](https://play.google.com/store/apps/details?id=com.nthlink.android.client)
+[Apkpure下载](https://apkpure.com/nthlink/com.nthlink.android.client)
+
+New Node 结合测试和网友反馈 2023年6月中旬测试可用
 
 >很多广东网友反馈无法链接， 广东网友请尝试nthlink
 
@@ -151,12 +157,6 @@ Orbot Tor VPN， 100%可用翻墙方式, 如果链接不上，很大可能配置
 
 [本网站下载](https://github.com/hello-world-1989/temp/raw/main/android/Orbot-17.0.0-RC-1-tor.0.4.7.11-fullperm-universal-release.apk)
 [官方Github下载](https://github.com/guardianproject/orbot/releases)
-
-nthlink 2023年6月中旬测试可用，欢迎下载使用并反馈
-
-[本网站下载](https://github.com/hello-world-1989/temp/raw/main/android/nthlink-6_0_5.apk.zip)
-[谷歌应用商店下载](https://play.google.com/store/apps/details?id=com.nthlink.android.client)
-[Apkpure下载](https://apkpure.com/nthlink/com.nthlink.android.client)
 
 自由门 2023年6月中旬测试可用，欢迎下载使用并反馈
 
@@ -199,6 +199,7 @@ Tor Browser 100%可用翻墙方式, 如果链接不上，很大可能配置问�
 # <a id="ios">苹果手机苹果电脑下载教程</a>
 
 临时可用翻墙方式，直到正式上线，需安装 TestFlight
+
 [Orbot VPN](https://testflight.apple.com/join/adSqbCeM)
 
 短期翻墙建议使用以上VPN Gate提供的无需客户端翻墙方式 -- 2023年6月网友反馈需要尝试多个IP才能链接成功
@@ -209,12 +210,20 @@ Tor Browser 100%可用翻墙方式, 如果链接不上，很大可能配置问�
 
 有可能碰到付款方式问题，请查看第二条评论林然然解决方法
 
-切换后可以搜索New Node VPN, NthLink VPN, Orbot VPN, Tor browser, Psiphon, Lantern等
+切换后可以搜索NthLink VPN, New Node VPN, Orbot VPN, Tor browser, Psiphon, Lantern等
 
 <img src='/ios/ios-part1.png' width='250' height='350' />
 <img src='/ios/ios-part2.png' width='250' height='350' />
 
+Open VPN 苹果电脑客户端
+[本网站下载](https://gitlab.com/end-gfw1/vpn/-/raw/main/openvpn-connect-3.4.2.4547_signed.dmg)
+[官方网站下载](https://openvpn.net/downloads/openvpn-connect-v3-macos.dmg)
+
 # <a id="windows">微软系统客户端下载 -- 未经墙内测试</a>
+
+NthLink
+[本网站下载](https://gitlab.com/end-gfw1/vpn/-/raw/main/nthlink-win-6_0_1.exe)
+[官方网站下载](https://s3.us-west-1.amazonaws.com/dwo-jar-kmf-883/nthlink-win-6_0_1.exe)
 
 无界
 [本网站下载](https://github.com/hello-world-1989/temp/raw/main/windows/fg799p.zip)
@@ -225,7 +234,6 @@ Tor Browser 100%可用翻墙方式, 如果链接不上，很大可能配置问�
 [官方网站下载](https://d1mqnu3031neuj.cloudfront.net/login2.html?i=a3)
 
 VPN Gate
-
 [本网站下载](https://github.com/hello-world-1989/temp/raw/main/windows/vpngate-client-2023.04.22-build-9787.155749.zip)
 [官方网站下载](https://download.vpngate.jp/common/cd.aspx/vpngate-client-2023.04.25-build-9787.155775.zip)
 
