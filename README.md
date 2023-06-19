@@ -39,40 +39,6 @@
 # <a id="desc">项目简介和推荐vpn</a>
 软件大多由美国政府资助开发
 
-Open VPN客户端配合.ovpn文件 100%可用翻墙方式，如果链接不上，很大可能配置问题, 视频教程
-
-[免翻墙下载Open VPN视频教程](https://github.com/hello-world-1989/temp/raw/main/video/openvpn2.mp4)
-
-[Open VPN Youtube油管视频教程](https://www.youtube.com/watch?v=GHhv5NI1EfI)
-
->镜像地址Mirror List在下边的图片中, L2TP服务器地址
-
->或者[发邮件](mailto:end.gfw@hotmail.com)索取镜像地址，邮件主题镜像地址
-
-Orbot VPN配合普通网桥或obfs4网桥 100%可用翻墙方式，如果链接不上，很大可能配置问题， 不同版本使用不同网桥
-
-[免翻墙下载Orbot VPN视频教程](https://github.com/hello-world-1989/temp/raw/main/video/orbot.mp4)
-
-[Orbot VPN Youtube油管视频教程](https://www.youtube.com/watch?v=jnIl-lLYu9k)
-
->[自行获取网桥](https://bridges.torproject.org/bridges/?transport=0), 注意获取普通网桥还是obfs4， Advanced Options中选择None或obfs4
-
->[发邮件](mailto:end.gfw@hotmail.com)索取网桥，邮件主题网桥
-
-普通网桥示例
-```
-195.201.202.125:443 D44C0BC5AF900547704BCE5062E4B169672120E8
-95.216.198.193:8080 23F35720E7DAC1F8A3DDBD5D40C90A552B31435A
-```
-
-obfs4网桥示例
-
-```
-obfs4 185.177.207.132:8443 4FB781F7A9DD39DA53A7996907817FC479874D19 cert=UL2gCAXWW5kEWY4TQ0lNeu6OAmzh40bXYVhMnTWVG8USnyy/zEKGSIPgmwTDMumWr9c1Pg iat-mode=0
-obfs4 185.130.46.79:2155 6DFDEA756B00FFD9819061D51D1A3305C853125C cert=c0co+KUDFPtmkh33IL0sbN6WHpm4tBpE53yAECbz3m6fVLslq1aUeiducZ0IY6DaCOVUdQ iat-mode=0
-obfs4 68.183.36.57:23411 11A47B73E44EC752E77B9864D8A26D250613B642 cert=Jc9MHFAfavb/MmJYz5exrKC7es3lnFq+BOaOv6RgrQ3ALxD/bBmwyDQOi/njk115QK0YGw iat-mode=0
-```
-
 保护隐私防止被喝茶， 建议阅读 [数字极权时代生存手册](https://reconsidera.github.io/#/12)和[编程随想博客推荐帖子-信息安全](https://program-think.blogspot.com/2019/01/Security-Guide-for-Political-Activists.html)
 
 如果担心下载的VPN有问题（包含病毒、被政府修改等），若能翻墙直接官网下载最新版本
@@ -127,13 +93,45 @@ L2TP服务器地址，每小时更新
 
 >安卓版本12以上建议直接使用New Node VPN, NthLink VPN, Orbot VPN, 苹果手机使用自带L2TP方式
 
+>Open VPN客户端配合.ovpn文件 100%可用翻墙方式，如果链接不上，很大可能配置问题, 视频教程
+
+>设置有些繁琐，如果其它方式不可用，再尝试此种方法。
+
 [免翻墙下载Open VPN视频教程](https://github.com/hello-world-1989/temp/raw/main/video/openvpn2.mp4)
 
 [Open VPN Youtube油管视频教程](https://www.youtube.com/watch?v=GHhv5NI1EfI)
 
 >安卓版本12以上需要[下载OpenVPN客户端](https://github.com/hello-world-1989/temp/raw/main/android/OpenVPN_3.3.4_Apkpure.apk)和.ovpn才能使用 VPN Gate 提供的这种翻墙方式
 
->VPN Gate 镜像页面(图片中Mirror List)下载 .ovpn文件 见以上视频教程
+>VPN Gate 镜像页面(图片中Mirror List) 下载 .ovpn文件 见以上视频教程
+
+>或者[发邮件](mailto:end.gfw@hotmail.com)索取镜像地址，邮件主题镜像地址
+
+Orbot VPN配合普通网桥或obfs4网桥 100%可用翻墙方式，如果链接不上，很大可能配置问题， 不同版本使用不同网桥
+
+设置有些繁琐，如果其它方式不可用，再尝试此种方法。
+
+[免翻墙下载Orbot VPN视频教程](https://github.com/hello-world-1989/temp/raw/main/video/orbot.mp4)
+
+[Orbot VPN Youtube油管视频教程](https://www.youtube.com/watch?v=jnIl-lLYu9k)
+
+>[自行获取网桥](https://bridges.torproject.org/bridges/?transport=0), 注意获取普通网桥还是obfs4， Advanced Options中选择None或obfs4
+
+>[发邮件](mailto:end.gfw@hotmail.com)索取网桥，邮件主题网桥
+
+普通网桥示例
+```
+195.201.202.125:443 D44C0BC5AF900547704BCE5062E4B169672120E8
+95.216.198.193:8080 23F35720E7DAC1F8A3DDBD5D40C90A552B31435A
+```
+
+obfs4网桥示例
+
+```
+obfs4 185.177.207.132:8443 4FB781F7A9DD39DA53A7996907817FC479874D19 cert=UL2gCAXWW5kEWY4TQ0lNeu6OAmzh40bXYVhMnTWVG8USnyy/zEKGSIPgmwTDMumWr9c1Pg iat-mode=0
+obfs4 185.130.46.79:2155 6DFDEA756B00FFD9819061D51D1A3305C853125C cert=c0co+KUDFPtmkh33IL0sbN6WHpm4tBpE53yAECbz3m6fVLslq1aUeiducZ0IY6DaCOVUdQ iat-mode=0
+obfs4 68.183.36.57:23411 11A47B73E44EC752E77B9864D8A26D250613B642 cert=Jc9MHFAfavb/MmJYz5exrKC7es3lnFq+BOaOv6RgrQ3ALxD/bBmwyDQOi/njk115QK0YGw iat-mode=0
+```
 
 # <a id="android">安卓手机端下载</a>
 
@@ -151,17 +149,23 @@ New Node 结合测试和网友反馈 2023年6月中旬测试可用
 [谷歌应用商店下载](https://play.google.com/store/apps/details?id=com.clostra.newnode.vpn) 
 [Apkpure下载](https://apkpure.com/newnode/com.newnode.messenger/download)
 
+自由门 2023年6月中旬测试可用，欢迎下载使用并反馈
+
+[本网站下载](https://github.com/hello-world-1989/temp/raw/main/android/fgvpn13-update.apk)
+[Github备用下载](https://github.com/sglfree/freesky)
+
+[迷雾通官网](https://waa.ai/xiazaimiwutong)， 需注册（无需手机号邮箱）
+
+[本网站下载](https://github.com/hello-world-1989/temp/raw/main/android/geph-android.apk)
+[谷歌应用商店下载](https://play.google.com/store/apps/details?id=io.geph.android)
+[Apkpure下载](https://apkpure.com/cn/geph-resilient-anti-blocking/io.geph.android)
+
 Orbot Tor VPN， 100%可用翻墙方式, 如果链接不上，很大可能配置问题, 需要开启 使用网桥-> Snowflake1, Snowflake2
 
 如果还不能链接，请使用自定义网桥 -> 粘贴网桥地址， 发邮件到[邮箱](mailto:end.gfw@hotmail.com) 标题: 索取网桥地址
 
 [本网站下载](https://github.com/hello-world-1989/temp/raw/main/android/Orbot-17.0.0-RC-1-tor.0.4.7.11-fullperm-universal-release.apk)
 [官方Github下载](https://github.com/guardianproject/orbot/releases)
-
-自由门 2023年6月中旬测试可用，欢迎下载使用并反馈
-
-[本网站下载](https://github.com/hello-world-1989/temp/raw/main/android/fgvpn13-update.apk)
-[Github备用下载](https://github.com/sglfree/freesky)
 
 Super VPN 2023年5月中旬测试后发现可能需要连接多次才能使用，测试不一定准确，欢迎下载使用并反馈
 
@@ -190,11 +194,8 @@ Tor Browser 100%可用翻墙方式, 如果链接不上，很大可能配置问�
 [Apkpure下载](https://apkpure.com/tor-browser/org.torproject.torbrowser)
 
 台湾之音
-
 [本网站下载](https://github.com/hello-world-1989/temp/raw/main/android/RTI_to_Go_1.1.10_Apkpure.apk)
 [Apkpure下载](https://apkpure.com/cn/rti-to-go/org.rti.Khanka/download)
-
-[迷雾通](https://waa.ai/xiazaimiwutong)
 
 # <a id="ios">苹果手机苹果电脑下载教程</a>
 
@@ -219,6 +220,10 @@ Open VPN 苹果电脑客户端
 [本网站下载](https://gitlab.com/end-gfw1/vpn/-/raw/main/openvpn-connect-3.4.2.4547_signed.dmg)
 [官方网站下载](https://openvpn.net/downloads/openvpn-connect-v3-macos.dmg)
 
+[迷雾通官网](https://waa.ai/xiazaimiwutong)， 需注册（无需手机号邮箱）
+
+[本网站下载](https://github.com/hello-world-1989/temp/raw/main/mac/geph-macos.dmg)
+
 # <a id="windows">微软系统客户端下载 -- 未经墙内测试</a>
 
 NthLink
@@ -236,6 +241,10 @@ NthLink
 VPN Gate
 [本网站下载](https://github.com/hello-world-1989/temp/raw/main/windows/vpngate-client-2023.04.22-build-9787.155749.zip)
 [官方网站下载](https://download.vpngate.jp/common/cd.aspx/vpngate-client-2023.04.25-build-9787.155775.zip)
+
+[迷雾通官网](https://waa.ai/xiazaimiwutong)， 需注册（无需手机号邮箱）
+
+[本网站下载](https://github.com/hello-world-1989/temp/raw/main/windows/geph-windows-setup.exe)
 
 Tor Browser, 100%可用翻墙方式, 如果链接不上，很大可能配置问题, 需要开启snowflake或者输入自定义网桥
 [本网站下载](https://github.com/hello-world-1989/temp/raw/main/windows/torbrowser-install-win64-12.0.4_ALL.zip)
